@@ -46,6 +46,7 @@ body {
 
 #banner {
     background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding-top: 100px;
 }
 
 .title-text {
@@ -116,6 +117,9 @@ body {
 
 }
 
+
+/* special section */
+
 .our-speaciallity {
     background: #f8f9fa;
 }
@@ -125,6 +129,9 @@ body {
     padding-bottom: 25px;
 }
 
+.network-img {
+    padding-bottom: 50px;
+}
 
 
 
