@@ -1,0 +1,208 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+
+}
+
+.navbar-brand img {
+    height: 40px;
+    padding-left: 20px;
+}
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    font-weight: 600;
+    color: white !important;
+    text-align: right;
+}
+
+
+
+.fa-bars {
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+}
+
+/* -------------------banner-------------------- */
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.title-text {
+    color: white;
+    margin-top: 100px;
+}
+
+.play-btn {
+    width: 50px;
+    height: 50px;
+
+}
+
+
+/*========================== services ================================= */
+.title::before {
+    content: '';
+    margin: auto;
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    display: block;
+    transform: translateY(63px);
+}
+
+.title::after {
+    content: '';
+    margin: auto;
+    margin-bottom: 40px;
+    background: #7b1798;
+    height: 10px;
+    width: 50px;
+    display: block;
+    transform: translateY(8px);
+}
+
+
+.box {
+    border-radius: 10px;
+
+}
+
+.box:hover {
+    background: #d6dadd;
+}
+
+
+
+
+.servic-img {
+    width: auto;
+    height: 150px;
+    padding-left: 25px;
+    margin-bottom: 50px;
+    margin-top: 90px;
+}
+
+.servic-btn {
+    box-shadow: none;
+    padding: 8px 30px !important;
+    font-weight: 800;
+    font-size: larger !important;
+    text-decoration: none;
+    border-radius: 20px !important;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+.our-speaciallity {
+    background: #f8f9fa;
+}
+
+#speciallity {
+    padding-top: 60px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+
+
+/* testomonial  */
+.user-feedback {
+
+
+    border-left: 5px solid #5f1782;
+    ;
+
+
+}
+
+.user-img {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+/* social media */
+
+#social-media {
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+.social-icon img {
+    margin-top: 40px;
+    width: 60px;
+    transition: 0.5s;
+}
+
+.social-icon a:hover img {
+    transform: translateY(-10px);
+}
+
+/* footer ------------------------------ */
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+.footer-box .from-control {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    margin-bottom: 30px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    border: none;
+    border-radius: none;
+    box-shadow: none !important;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
